@@ -4,7 +4,6 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 import { loginApi, loginFacebookApi } from '../../redux/reducer/userReducer';
 import { useDispatch } from 'react-redux';
-import FacebookLogin from 'react-facebook-login/dist/facebook-login-render-props';
 
 const Login = () => {
   const dispatch = useDispatch();
