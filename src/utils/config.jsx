@@ -5,7 +5,7 @@ import { isExpired, decodeToken } from 'react-jwt';
 export const USER_LOGIN = 'userLogin';
 export const TOKEN = 'accessToken';
 export const TOKEN_CYBER =
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJCb290Y2FtcCAzNUUiLCJIZXRIYW5TdHJpbmciOiIzMS8wNS8yMDIzIiwiSGV0SGFuVGltZSI6IjE2ODU0OTEyMDAwMDAiLCJuYmYiOjE2NTczODYwMDAsImV4cCI6MTY4NTYzODgwMH0.LWlPoCoXPHgp2U6FijTqXvKFt7ENvY9Tyn9ux-bVlXo';
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzkiLCJIZXRIYW5TdHJpbmciOiIxMC8wOC8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MjMyNDgwMDAwMDAiLCJuYmYiOjE3MDQ4MTk2MDAsImV4cCI6MTcyMzM5NTYwMH0.9nQMAckND4ADjhVcOy3meIiEMlozl0cQKKhl58halRc";
 
 //các hàm sử dụng để lưu
 export const {

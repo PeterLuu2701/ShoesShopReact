@@ -75,7 +75,7 @@ const Login = () => {
           </button>
         </div>
       </form>
-      <div className="social_login">
+      {/* <div className="social_login">
         <FacebookLogin
           appId="1026190204826662"
           autoLoad={false}
@@ -88,7 +88,7 @@ const Login = () => {
             </button>
           )}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
