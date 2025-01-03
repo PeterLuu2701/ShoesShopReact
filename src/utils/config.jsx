@@ -96,7 +96,7 @@ http.interceptors.response.use(
     //Bắt lỗi 400 hoặc 404
     if (err.response?.status === 400 || err.response?.status === 404) {
       //Lỗi do tham số => backend trả về 400 hoặc 404 mình sẽ xử lý
-      alert('tham số không hợp lệ!');
+      alert('Something went wrong');
       //chuyển hướng về home
       history.push('/');
     }
@@ -104,7 +104,7 @@ http.interceptors.response.use(
       const isMyTokenExpired = isExpired(getStore(TOKEN));
       //token hết hạn
       if (isMyTokenExpired) {
-        alert('Hết phiên đăng nhập yêu cầu đăng nhập lại!');
+        alert('Your session has expired');
         eraseStore(TOKEN);
         eraseStore(USER_LOGIN);
         //Chuyển hướng trang dạng f5
